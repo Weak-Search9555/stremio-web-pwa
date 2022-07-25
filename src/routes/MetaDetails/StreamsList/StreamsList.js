@@ -66,10 +66,6 @@ const StreamsList = ({ className, ...props }) => {
                                 ))}
                             </div>
             }
-            <Button className={styles['install-button-container']} title={'Install Addons'} href={'#/addons'}>
-                <Icon className={styles['icon']} icon={'ic_addons'} />
-                <div className={styles['label']}>Install Addons</div>
-            </Button>
         </div>
     );
 };
